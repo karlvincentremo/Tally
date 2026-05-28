@@ -8,7 +8,7 @@ L — Latch:** Stable hardware memory storage.
 L — Logic:** Advanced debouncing to prevent multi-vote errors.
 Y — Yield:** Real-time visual output via 7-segment multiplexing.
 
-## Project Specifications
+Project Specifications
 - Hardware Target: Artix-7 FPGA
 - Language: Verilog HDL
 - Simulation Proof: 8-bit overflow testing successful (rolls over at 256th vote).
