@@ -3,9 +3,9 @@ module top(
     input reset,
     input btn1,
     input btn2,
-    output [7:0] tally1, // These must stay so the Testbench can see them
+    output [7:0] tally1, 
     output [7:0] tally2,
-    output [6:0] seg,    // These are for your Display Driver
+    output [6:0] seg,   
     output [3:0] an
 );
 
@@ -25,7 +25,7 @@ module top(
         .count2(tally2)
     );
 
-    // 3. Display Driver (Chapter 3 Methodology)
+    // 3. Display Driver 
     display display_unit (
         .clk(clk),
         .val1(tally1),
