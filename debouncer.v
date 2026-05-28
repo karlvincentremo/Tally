@@ -4,8 +4,6 @@ module debouncer(
     output reg clean_btn
 );
 
-    // This counter waits for the signal to be stable
-    // 16 bits is plenty for a simulation delay
     reg [15:0] counter = 0;
 
     always @(posedge clk) begin
@@ -13,7 +11,7 @@ module debouncer(
             if (counter < 16'hFFFF) 
                 counter <= counter + 1;
             else
-                clean_btn <= 1; // It's stable!
+                clean_btn <= 1; 
         end else begin
             counter <= 0;
             clean_btn <= 0;
