@@ -2,7 +2,7 @@
 
 ### FPGA-Based Electronic Voting Machine
 
-TALLY is a Verilog-based electronic voting machine prototype designed for an FPGA. It demonstrates how two independent vote inputs can be debounced, counted, and connected to a multiplexed seven-segment display.
+TALLY is a Verilog-based electronic voting machine prototype designed for an FPGA. It demonstrates how a two independent vote inputs can be debounced, counted, and connected to a multiplexed seven-segment display.
 
 The project is intended for learning and demonstrating digital logic design with Verilog HDL and Xilinx Vivado. It is an educational prototype, not a certified or production-ready election system.
 
